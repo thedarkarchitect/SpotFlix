@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Detail } from './components/Detail';
 import Login from './auth/Login';
+import Signup from './auth/Signup';
 import Navbar from './components/Navbar'
 import Container from './pages/Container'
 import Trending from './pages/Trending';
@@ -38,8 +39,7 @@ function App() {
           <Route path='/upcoming' element={<Upcoming />} />
           <Route path='/moviedetail/:id' element={<Detail />} />
           <Route path="/favorite" element={<Favorite />} />
-          {/* <Route path="/Login" element={<LoginPage/>} />
-          <Route path="/signup" element={<SignupPage/>} /> */}
+          <Route path="/signup" element={<Signup />} /> 
           <Route path="/search/:query" element={<Container/>}/>
           <Route path="/search/" element={<Container/>}/>
         </Routes>

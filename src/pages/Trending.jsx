@@ -3,7 +3,6 @@ import Contextpage from '../Contextpage';
 import Moviecard from '../components/Moviecard';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from '../components/Header';
-// import { Pagebtn } from '../components/Pagebtn';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 function Trending() {
@@ -53,8 +52,7 @@ function Trending() {
                         }
                     </AnimatePresence>
                 </motion.div>
-                {/* <Pagebtn /> */}
-
+            
             </div>
         </>
     )

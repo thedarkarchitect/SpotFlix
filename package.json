@@ -9,20 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.8",
     "dotenv": "^16.0.3",
-    "firebase": "^9.18.0",
     "framer-motion": "^10.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-firebase-hooks": "^5.1.1",
-    "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
     "react-infinite-scroll-component": "^6.1.0",
     "react-lazy-load-image-component": "^1.5.6",
     "react-router-dom": "^6.8.1",
     "react-slugify": "^3.0.2",
     "react-toastify": "^9.1.1",
-    "tailwind-scrollbar": "^2.1.0"
+    "tailwind-scrollbar": "^2.1.0",
+    "tw-elements-react": "^1.0.0-alpha2"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

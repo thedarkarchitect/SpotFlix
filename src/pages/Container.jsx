@@ -11,8 +11,8 @@ function Container() {
     const { query } = useParams()
     return (
         <section>
-        <Searchbar />
-        {query ? <Search query={query} /> : <Movies />}
+            <Searchbar />
+            {query ? <Search query={query} /> : <Movies />}
         </section>
     )
 }

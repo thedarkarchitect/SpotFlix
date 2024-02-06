@@ -18,7 +18,6 @@ export function MovieProvider({ children }) {
   const [genres, setGenres] = useState([])
   const [loader, setLoader] = useState(true);
   const [backgenre, setBackGenre] = useState(false);
-  // const [user, setUser] = useAuthState(auth)//=======> firebase custom hooks state
   const navigate = useNavigate();// =====> navigate page
 
   const APIKEY = import.meta.env.VITE_API_KEY;

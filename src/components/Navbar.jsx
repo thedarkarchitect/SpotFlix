@@ -79,9 +79,20 @@ function Navbar() {
                     </>
                         :
                         <>
-                            <Link to="/login" className="w-full bg-yellow-500 py-2 gap-4 rounded-xl flex items-center justify-center font-semibold border-2 border-yellow-500/10" onClick={() => Any}>
-                                <h1>Log in</h1>
-                            </Link>
+                        <ul>
+                            <li>
+                                <Link to="/login" className="w-full bg-yellow-500 py-2 gap-4 rounded-xl flex items-center justify-center font-semibold border-2 border-yellow-500/10" onClick={() => Any}>
+                                    <h1>Log in</h1>
+                                </Link>
+                            </li>
+                            <br></br>
+                            <li>
+                                <Link to="/signup" className="w-full bg-yellow-500 py-2 gap-4 rounded-xl flex items-center justify-center font-semibold border-2 border-yellow-500/10" onClick={() => Any}>
+                                    <h1>SignUp</h1>
+                                </Link>
+                            </li>
+                        </ul>
+                            
                         </>
                     }
                 </div>
